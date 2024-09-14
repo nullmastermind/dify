@@ -87,7 +87,6 @@ const TextGeneration: FC<IMainProps> = ({
       params.delete('mode')
       router.replace(`${pathname}?${params.toString()}`)
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // Notice this situation isCallBatchAPI but not in batch tab
@@ -413,10 +412,10 @@ const TextGeneration: FC<IMainProps> = ({
 
   useAppFavicon({
     enable: !isInstalledApp,
-    icon_type: siteInfo?.icon_type,
+    icon_type: siteInfo?.icon_type ?? undefined,
     icon: siteInfo?.icon,
-    icon_background: siteInfo?.icon_background,
-    icon_url: siteInfo?.icon_url,
+    icon_background: siteInfo?.icon_background ?? undefined,
+    icon_url: siteInfo?.icon_url ?? undefined,
   })
 
   const [isShowResSidebar, { setTrue: doShowResSidebar, setFalse: hideResSidebar }] = useBoolean(false)
