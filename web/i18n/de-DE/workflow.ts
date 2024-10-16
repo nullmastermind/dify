@@ -93,6 +93,8 @@ const translation = {
     disconnect: 'Trennen',
     jumpToNode: 'Zu diesem Knoten springen',
     addParallelNode: 'Parallelen Knoten hinzufügen',
+    parallel: 'PARALLEL',
+    branch: 'ZWEIG',
   },
   env: {
     envPanelTitle: 'Umgebungsvariablen',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Neusortierungsmodell',
     },
     invalidVariable: 'Ungültige Variable',
+    rerankModelRequired: 'Bevor Sie das Rerank-Modell aktivieren, bestätigen Sie bitte, dass das Modell in den Einstellungen erfolgreich konfiguriert wurde.',
   },
   singleRun: {
     testRun: 'Testlauf ',

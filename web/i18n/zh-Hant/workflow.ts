@@ -93,6 +93,8 @@ const translation = {
     disconnect: '斷開',
     jumpToNode: '跳轉到此節點',
     addParallelNode: '添加並行節點',
+    parallel: '並行',
+    branch: '分支',
   },
   env: {
     envPanelTitle: '環境變數',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Rerank 模型',
     },
     invalidVariable: '無效的變量',
+    rerankModelRequired: '在開啟 Rerank 模型之前，請在設置中確認模型配置成功。',
   },
   singleRun: {
     testRun: '測試運行',

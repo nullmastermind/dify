@@ -93,6 +93,8 @@ const translation = {
     disconnect: 'Ngắt kết nối',
     jumpToNode: 'Chuyển đến nút này',
     addParallelNode: 'Thêm nút song song',
+    parallel: 'SONG SONG',
+    branch: 'NHÁNH',
   },
   env: {
     envPanelTitle: 'Biến Môi Trường',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Mô hình xếp hạng lại',
     },
     invalidVariable: 'Biến không hợp lệ',
+    rerankModelRequired: 'Trước khi bật Mô hình xếp hạng lại, vui lòng xác nhận rằng mô hình đã được định cấu hình thành công trong cài đặt.',
   },
   singleRun: {
     testRun: 'Chạy thử nghiệm ',

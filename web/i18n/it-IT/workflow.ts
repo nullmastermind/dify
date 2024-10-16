@@ -97,6 +97,8 @@ const translation = {
     disconnect: 'Disconnettere',
     jumpToNode: 'Vai a questo nodo',
     addParallelNode: 'Aggiungi nodo parallelo',
+    parallel: 'PARALLELO',
+    branch: 'RAMO',
   },
   env: {
     envPanelTitle: 'Variabili d\'Ambiente',
@@ -185,6 +187,7 @@ const translation = {
       rerankModel: 'Modello Rerank',
     },
     invalidVariable: 'Variabile non valida',
+    rerankModelRequired: 'Prima di attivare il modello di reranking, conferma che il modello è stato configurato correttamente nelle impostazioni.',
   },
   singleRun: {
     testRun: 'Esecuzione Test ',

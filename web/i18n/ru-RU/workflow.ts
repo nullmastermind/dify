@@ -93,6 +93,8 @@ const translation = {
     disconnect: 'Разъединять',
     jumpToNode: 'Перейти к этому узлу',
     addParallelNode: 'Добавить параллельный узел',
+    parallel: 'ПАРАЛЛЕЛЬНЫЙ',
+    branch: 'ВЕТКА',
   },
   env: {
     envPanelTitle: 'Переменные среды',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Модель переранжирования',
     },
     invalidVariable: 'Неверная переменная',
+    rerankModelRequired: 'Перед включением модели повторного ранжирования убедитесь, что модель успешно настроена в настройках.',
   },
   singleRun: {
     testRun: 'Тестовый запуск ',

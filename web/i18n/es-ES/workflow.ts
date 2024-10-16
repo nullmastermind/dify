@@ -93,6 +93,8 @@ const translation = {
     disconnect: 'Desconectar',
     jumpToNode: 'Saltar a este nodo',
     addParallelNode: 'Agregar nodo paralelo',
+    parallel: 'PARALELO',
+    branch: 'RAMA',
   },
   env: {
     envPanelTitle: 'Variables de Entorno',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Modelo de reordenamiento',
     },
     invalidVariable: 'Variable no válida',
+    rerankModelRequired: 'Antes de activar el modelo de reclasificación, confirme que el modelo se ha configurado correctamente en la configuración.',
   },
   singleRun: {
     testRun: 'Ejecución de prueba',

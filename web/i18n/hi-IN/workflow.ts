@@ -96,6 +96,8 @@ const translation = {
     parallelRun: 'समानांतर रन',
     jumpToNode: 'इस नोड पर जाएं',
     addParallelNode: 'समानांतर नोड जोड़ें',
+    parallel: 'समानांतर',
+    branch: 'शाखा',
   },
   env: {
     envPanelTitle: 'पर्यावरण चर',
@@ -183,6 +185,7 @@ const translation = {
       rerankModel: 'पुनः रैंक मॉडल',
     },
     invalidVariable: 'अमान्य वेरिएबल',
+    rerankModelRequired: 'Rerank मॉडल चालू करने से पहले, कृपया पुष्टि करें कि मॉडल को सेटिंग्स में सफलतापूर्वक कॉन्फ़िगर किया गया है।',
   },
   singleRun: {
     testRun: 'परीक्षण रन',

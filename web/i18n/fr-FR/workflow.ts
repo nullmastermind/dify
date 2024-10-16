@@ -93,6 +93,8 @@ const translation = {
     disconnect: 'Déconnecter',
     jumpToNode: 'Aller à ce nœud',
     addParallelNode: 'Ajouter un nœud parallèle',
+    parallel: 'PARALLÈLE',
+    branch: 'BRANCHE',
   },
   env: {
     envPanelTitle: 'Variables d\'Environnement',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Modèle de rerank',
     },
     invalidVariable: 'Variable invalide',
+    rerankModelRequired: 'Avant d’activer le modèle de reclassement, veuillez confirmer que le modèle a été correctement configuré dans les paramètres.',
   },
   singleRun: {
     testRun: 'Exécution de test',

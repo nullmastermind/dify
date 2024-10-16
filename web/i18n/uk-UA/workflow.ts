@@ -93,6 +93,8 @@ const translation = {
     parallelRun: 'Паралельний біг',
     jumpToNode: 'Перейти до цього вузла',
     addParallelNode: 'Додати паралельний вузол',
+    parallel: 'ПАРАЛЕЛЬНИЙ',
+    branch: 'ГІЛКА',
   },
   env: {
     envPanelTitle: 'Змінні середовища',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Модель повторного ранжування',
     },
     invalidVariable: 'Недійсна змінна',
+    rerankModelRequired: 'Перед увімкненням Rerank Model, будь ласка, підтвердьте, що модель успішно налаштована в налаштуваннях.',
   },
   singleRun: {
     testRun: 'Тестовий запуск',

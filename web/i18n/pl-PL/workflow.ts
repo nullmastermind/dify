@@ -93,6 +93,8 @@ const translation = {
     jumpToNode: 'Przejdź do tego węzła',
     disconnect: 'Odłączyć',
     addParallelNode: 'Dodaj węzeł równoległy',
+    parallel: 'RÓWNOLEGŁY',
+    branch: 'GAŁĄŹ',
   },
   env: {
     envPanelTitle: 'Zmienne Środowiskowe',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'Model rerank',
     },
     invalidVariable: 'Nieprawidłowa zmienna',
+    rerankModelRequired: 'Przed włączeniem Rerank Model upewnij się, że model został pomyślnie skonfigurowany w ustawieniach.',
   },
   singleRun: {
     testRun: 'Testowe uruchomienie ',

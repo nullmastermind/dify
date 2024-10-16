@@ -93,6 +93,8 @@ const translation = {
     jumpToNode: 'پرش به این گره',
     parallelRun: 'اجرای موازی',
     addParallelNode: 'افزودن گره موازی',
+    parallel: 'موازی',
+    branch: 'شاخه',
   },
   env: {
     envPanelTitle: 'متغیرهای محیطی',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: 'مدل مجدد رتبه‌بندی',
     },
     invalidVariable: 'متغیر نامعتبر',
+    rerankModelRequired: 'قبل از روشن کردن Rerank Model، لطفا تأیید کنید که مدل با موفقیت در تنظیمات پیکربندی شده است.',
   },
   singleRun: {
     testRun: 'اجرای آزمایشی',

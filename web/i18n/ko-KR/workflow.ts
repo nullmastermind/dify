@@ -93,6 +93,8 @@ const translation = {
     disconnect: '분리하다',
     jumpToNode: '이 노드로 이동',
     addParallelNode: '병렬 노드 추가',
+    parallel: '병렬',
+    branch: '브랜치',
   },
   env: {
     envPanelTitle: '환경 변수',
@@ -180,6 +182,7 @@ const translation = {
       rerankModel: '재정렬 모델',
     },
     invalidVariable: '잘못된 변수',
+    rerankModelRequired: 'Rerank Model을 켜기 전에 설정에서 모델이 성공적으로 구성되었는지 확인하십시오.',
   },
   singleRun: {
     testRun: '테스트 실행',
